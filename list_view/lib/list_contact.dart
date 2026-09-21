@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ListContact extends StatelessWidget {
-  ListContact({super.key, required this.nama, required this.nomorHP});
-  String nama;
-  String nomorHP;
+  const ListContact({super.key, required this.nama, required this.nomorHP});
+  final String nama;
+  final String nomorHP;
 
   @override
   Widget build(BuildContext context) {
